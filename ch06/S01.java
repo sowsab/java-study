@@ -59,6 +59,7 @@ class Cat {
     // }
 
     // 메소드 (객체의 기능)
+    // 생성된 인스턴스에서 사용할 수 있는 기능
     public void Cry() {
         System.out.println("애용");
     }
@@ -72,12 +73,14 @@ public class S01 {
     public static void main(String[] args) {
         // 오브젝트는 상상 할 수 있지만 실체화 되지 않은 것 
         Cat cat;
-
+        
         // new를 통해서 오브젝트에 인스턴스를 넣어 준다
         // 생성자가 요구하는 내용대로 작성 해야한다
         cat = new Cat("야용이", 2);
+        
+        cat.Cry();    
 
-        Cat cat2 = new Cat(1);
+        new Cat(1).Cry;
 
         // 문제
         // 이름이 길냥이 이고 나이가 1살인 고양이를 생성 하시오
