@@ -59,7 +59,6 @@ class Cat {
     // }
 
     // 메소드 (객체의 기능)
-    // 생성된 인스턴스에서 사용할 수 있는 기능
     public void Cry() {
         System.out.println("애용");
     }
@@ -78,9 +77,9 @@ public class S01 {
         // 생성자가 요구하는 내용대로 작성 해야한다
         cat = new Cat("야용이", 2);
         
-        cat.Cry();    
+        cat.Cry();
 
-        new Cat(1).Cry;
+        Cat cat2 = new Cat(1);
 
         // 문제
         // 이름이 길냥이 이고 나이가 1살인 고양이를 생성 하시오
