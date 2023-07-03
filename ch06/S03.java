@@ -43,9 +43,9 @@ package ch06;
         public void yam(int food) {
             // 밥을 먹었을 때 체력이 100을 초과하는 경우
             // 100으로 세팅하고 체력이 가득 찼다고 메시지 올리기
-            if (this.hp <= 100) {
+            if (this.hp + food > 100) {
                 this.hp = 100;
-                System.out.println("체력 가득 참");
+                System.out.println(this.name + "의 체력이 가득 찼습니다");
                 return;
             }
             this.hp = this.hp + food;
