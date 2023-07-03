@@ -1,12 +1,15 @@
 package ch00.test;
 
 public class Solution {
-    public double solution(double num1, double num2) {
-        double answer = num1 / num2 * 1000;
+    public static int solution(int n, int k) {
+        int answer = 0;
+        answer = (n*12000)+(k*2000)-(n/10*2000);
         return answer;
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().solution(2, 50));
+        System.out.println(Solution.solution(10,3));
     }
+
+    
 }
