@@ -73,31 +73,26 @@
 
 //     @Override
 //     public void search(String question) {
-//         // TODO Auto-generated method stub
 //         throw new UnsupportedOperationException("Unimplemented method 'search'");
 //     }
 
 //     @Override
 //     public void 통화수신(String data) {
-//         // TODO Auto-generated method stub
 //         throw new UnsupportedOperationException("Unimplemented method '통화수신'");
 //     }
 
 //     @Override
 //     public String 통화송신() {
-//         // TODO Auto-generated method stub
 //         throw new UnsupportedOperationException("Unimplemented method '통화송신'");
 //     }
 
 //     @Override
 //     public void 문자수신(String data) {
-//         // TODO Auto-generated method stub
 //         throw new UnsupportedOperationException("Unimplemented method '문자수신'");
 //     }
 
 //     @Override
 //     public String 문자송신() {
-//         // TODO Auto-generated method stub
 //         throw new UnsupportedOperationException("Unimplemented method '문자송신'");
 //     }
 
