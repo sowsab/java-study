@@ -1,18 +1,18 @@
-package ch04;
+// package ch04;
 
-public class S01 {
-    public static void main(String[] args) {
+// public class S01 {
+//     public static void main(String[] args) {
         
-        int age;
+//         int age;
         
-        if(2023 < 2022) {
-            age = 11;
+//         if(2023 < 2022) {
+//             age = 11;
 
-        } else {
-            age = 12;
-        }
+//         } else {
+//             age = 12;
+//         }
 
-        System.out.println(age);
+//         System.out.println(age);
 
-    }
-}
+//     }
+// }

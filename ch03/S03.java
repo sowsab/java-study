@@ -1,16 +1,16 @@
-package ch03;
+// package ch03;
 
-public class S03 {
-    public static void main(String[] args) {
+// public class S03 {
+//     public static void main(String[] args) {
         
-        short a = 1;
-        short b = 2;
-        short c = (short) (a + b);
+//         short a = 1;
+//         short b = 2;
+//         short c = (short) (a + b);
 
-        int num1 = 1000000;
-        int num2 = -2000000;
+//         int num1 = 1000000;
+//         int num2 = -2000000;
 
-        System.out.println(num1*num2);
+//         System.out.println(num1*num2);
 
-    }
-}
+//     }
+// }
